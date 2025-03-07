@@ -33,7 +33,7 @@ class CCExtractor {
       ccextractor,
       [
         file.path,
-        '--gui_mode_reports',
+        '--gui-mode-reports',
         ...paramsList,
       ],
     );
@@ -89,7 +89,7 @@ class CCExtractor {
         location,
         tcppasswrd.isNotEmpty ? '-tcppasswrd' + tcppasswrd : '',
         tcpdesc.isNotEmpty ? '-tcpdesc' + tcpdesc : '',
-        '--gui_mode_reports',
+        '--gui-mode-reports',
         ...paramsList,
       ],
     );
@@ -141,7 +141,7 @@ class CCExtractor {
       ccextractor,
       [
         ...files.map((e) => e.path).toList(),
-        '--gui_mode_reports',
+        '--gui-mode-reports',
         ...paramsList,
       ],
     );

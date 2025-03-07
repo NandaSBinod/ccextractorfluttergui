@@ -243,7 +243,7 @@ class SettingsModel {
       'wtvconvertfix': '-wtvconvertfix',
       'wtvmpeg2': '-wtvmpeg2',
       'program_number': '--program-number',
-      'autoprogram': '-autoprogram',
+      'autoprogram': '--autoprogram',
       'multiprogram': '-multiprogram',
       'streamtype': '-streamtype',
       'hauppauge': '--hauppauge',
